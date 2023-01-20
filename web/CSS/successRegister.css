@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("https://dev-cats.github.io/code-snippets/JetBrainsMono.css");
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+    height:auto;
+}
+
+html{
+    width: 100%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f6f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.img-container{
+    position: relative;
+    max-width: 350px;
+    height: auto;
+    display: flex;
+    align-items:center;
+    margin-bottom: 1rem;
+}
+
+.img-container img{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2.5rem;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -400px;
+}
+
+#container .content{
+    display: flex;
+    max-width: 650px;
+    text-align: center;
+    align-items:center;
+    flex-direction: column;
+    margin-left: 75px;
+}
+
+#container .content h4{
+    font: 'JetBrains Mono', Roboto;
+    position: relative;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    color:#000;
+    font-weight: 300;
+    padding: 10px 20px;
+}
+
+#container .content p{
+   color: #000; 
+   font-size: 1.2em;
+   
+}
+
+#container .content a:hover{
+    background-color: #217093;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+}
+
+#container .content a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px;
+    background: #54c2db;
+    color: #000;
+    text-decoration: none;
+    margin-top: 25px;
+    border-radius: 25px;
+    border-bottom: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.header{
+    position: relative;
+    left: 10px;
+    color: black;
+}
+
+.footer{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+}
+
+@media screen and (min-width: 500px) {
+   body {
+      width:420px;
+   }
+}
+
+@media screen and (min-width: 800px) {
+   body {
+      width:720px;
+   }
+}

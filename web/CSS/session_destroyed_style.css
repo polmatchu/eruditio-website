@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  height: 100vh;
+  background: -webkit-repeating-linear-gradient(-45deg, #c850c0, #4158d0);
+  background-size: 400%;
+}
+#error-page{
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  right: 15%;
+  bottom: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#error-page .content{
+  max-width: 800px;
+  text-align: center;
+}
+.content h2.header{
+  text-align: center;
+  justify-content: center;
+  font-size: 8vw;
+  line-height: 1em;
+  position: relative;
+  color: #efefef;
+}
+
+.content h4{
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #efefef;
+  font-size: 2em;
+  max-width: 600px;
+  position: relative;
+}
+
+.content p{
+  font-size: 1.2em;
+  color: #efefef;
+}
+.content .btns{
+  margin: 25px 0;
+  display: inline-flex;
+}
+.content .btns a{
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  border: 2px solid #efefef;
+  color: #efefef;
+  font-weight: 500;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+.content .btns a:hover{
+  background: #efefef;
+  color: #6342B2;
+}
+
+p{
+    padding: 10px 10px 10px 10px;
+}
